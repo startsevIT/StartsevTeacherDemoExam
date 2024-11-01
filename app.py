@@ -1,6 +1,6 @@
 import datetime
 from pydantic import BaseModel
-
+from fastapi import FastAPI
 
 class Order(BaseModel):
     number : int
@@ -11,8 +11,8 @@ class Order(BaseModel):
     client : str
     status : str
 
+repo = []
 
-from fastapi import FastAPI
  
 app = FastAPI()
  
