@@ -20,8 +20,6 @@ class UpdateOrderDTO(BaseModel):
     description: Optional[str] = ""
     master: Optional[str] = ""
 
-
-
 repo = [
     Order(
         number = 1,
