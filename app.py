@@ -21,29 +21,11 @@ class UpdateOrderDTO(BaseModel):
     status: Optional[str] = ""
     description: Optional[str] = ""
     master: Optional[str] = ""
-    comment : Optional[str] = str
+    comment : Optional[str] = ""
 
 repo = [
     Order(
         number = 1,
-        startDate = "2000-12-01",
-        device = "123",
-        problemType = "123",
-        description = "123",
-        client = "123",
-        status = "в ожидании"
-    ),
-    Order(
-        number = 2,
-        startDate = "2000-12-01",
-        device = "123",
-        problemType = "123",
-        description = "123",
-        client = "123",
-        status = "в ожидании"
-    ),
-    Order(
-        number = 3,
         startDate = "2000-12-01",
         device = "123",
         problemType = "123",
